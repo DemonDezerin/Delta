@@ -376,6 +376,7 @@ private extension Settings
         
         switch system
         {
+        case .fds: systemName = "fds"
         case .nes: systemName = "nes"
         case .snes: systemName = "snes"
         case .gbc: systemName = "gbc"
